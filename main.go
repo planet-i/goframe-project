@@ -9,5 +9,5 @@ import (
 )
 
 func main() {
-	cmd.Main.Run(gctx.GetInitCtx())
+	cmd.Main.Run(gctx.GetInitCtx()) // 调用internal/cmd包的对应命令引导程序启动。
 }
